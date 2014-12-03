@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConstructProject Code="2222-2222" Name="test1" Tenderee="sdfasd" ConstructVersion="广东省建设工程造价文件数据交换标准化规定1.0" TendereeProxy="1111" ControlPrice="3333" BuildUnit="2222" AreaKind="1" FileType="0" QuantityPrecision="2" TotalPrecision="2" RatePrecision="2">
+    <ProjectAddiInfo>
+</ProjectAddiInfo>
+    <TenderInfo Tenderer="t1111" Total="0" Duration="0" Deposit="0" QualityPromise="ffg" SuretyKind="现金" ProjectManager="p1111">
+</TenderInfo>
+    <ProjectList ProjectListID="1" Name="" ProjectType="0" Speciality="0" TemporaryRate="0" BQItemCost="0" MeasureItemCost="0" OtherItemCost="137.6" LawfeeTotal="35.45" TaxTotal="276.9" LaborTotal="0" MaterialTotal="0" MachineTotal="0" OverheadTotal="0" ProfitTotal="0" SafeCivilizationCost="0" Total="7305.3">
+        <ProjectList ProjectListID="2" Name="建筑工程" ProjectType="1" Speciality="0" TemporaryRate="0" BQItemCost="0" MeasureItemCost="0" OtherItemCost="137.6" LawfeeTotal="35.45" TaxTotal="276.9" LaborTotal="0" MaterialTotal="0" MachineTotal="0" OverheadTotal="0" ProfitTotal="0" SafeCivilizationCost="0" Total="7305.3">
+            <ProjectList ProjectListID="3" Name="新建通用建筑单位工程文件1" ProjectType="2" Speciality="0" BQItemCost="0" MeasureItemCost="0" OtherItemCost="0" LawfeeTotal="0" TaxTotal="0" LaborTotal="0" MaterialTotal="0" MachineTotal="0" OverheadTotal="0" ProfitTotal="0" SafeCivilizationCost="0" TemporaryRate="0" Total="0">
+                <Summary>
+                    <SummaryItem CostID="1" CostKind="2" CostCode="FHJ" OrdCode="1" Name="分部分项工程费" CostBase="" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="2" CostKind="0" CostCode="FBQD" OrdCode="1.1" Name="分部清单" CostBase="FHJ-FB[YNZTYSYPFFY]" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="true" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="3" CostKind="0" CostCode="YNZTYSYPFFY" OrdCode="1.2" Name="余泥渣土运输与排放费用" CostBase="FB[YNZTYSYPFFY]" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="true" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="4" CostKind="3" CostCode="CHJ" OrdCode="2" Name="措施项目费" CostBase="" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="5" CostKind="0" CostCode="AFWSCXMF" OrdCode="2.1" Name="安全防护、文明施工措施项目费" CostBase="AFWSCXMF" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="true" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="6" CostKind="0" CostCode="QTCSF" OrdCode="2.2" Name="其他措施费" CostBase="QTCSF" CostRate="0" Total="0" NoncompetitiveCost="false" SummaryFlag="true" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="7" CostKind="0" CostCode="" OrdCode="2.2.1" Name="" CostBase="" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="true" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="8" CostKind="4" CostCode="QTXM" OrdCode="3" Name="其他项目费" CostBase="QTXM" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="9" CostKind="5" CostCode="GF" OrdCode="4" Name="规费" CostBase="GF" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="10" CostKind="7" CostCode="SJ" OrdCode="5" Name="税金" CostBase="FHJ+CHJ+QTXM+GF" CostRate="0.0358" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="(穗价[2010]95号)关于调整我市堤围防护费征收标准有关问题的通知
+(粤建造发[2011]004号)关于调整建设工程税金计价标准的通知
+费率：税金费率+堤围防护费费率
+税金费率：市区，3.477%；
+          县镇，3.413%；
+          乡村，3.284%。
+堤围防护费费率：1‰。">
+</SummaryItem>
+                    <SummaryItem CostID="11" CostKind="1" CostCode="ZZJ" OrdCode="6" Name="总造价" CostBase="FHJ+CHJ+QTXM+GF+SJ-FJGF-CS[JGF]" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="">
+</SummaryItem>
+                    <SummaryItem CostID="12" CostKind="0" CostCode="RGF" OrdCode="7" Name="人工费" CostBase="FRGF+CRGF" CostRate="1" Total="0" NoncompetitiveCost="false" SummaryFlag="false" Remark="(穗建筑[2010]1653号)关于明确广州市建设工程造价中住房公积金与社会保险费占人工单价比例的通知">
+</SummaryItem>
+                </Summary>
+                <BQTable>
+                    <BQTitle BQTitleID="1" Code="0501" Name="A. 绿化工程" Remark="">
+                        <BQItem BQItemID="1" Code="010101001001" Attr="1.土壤类别 2.弃土运距 3.取土运距" ProjectContent="1.土方挖填 2.场地找平 3.运输" Unit="m2" Name="平整场地" Quantity="1" Rate="0" LimitedRate="0" LaborRate="0" MaterialRate="0" MainMaterialRate="0" EquipmentRate="0" MachineRate="0" RestRate="0" OverheadRate="0" ProfitRate="0" RiskRate="0" LawfeeRate="0" TaxRate="0" TemporaryRate="0" Addup="0" MainBQItem="false" Remark="">
+                            <BQNorm>
+			</BQNorm>
+                        </BQItem>
+                    </BQTitle>
+                </BQTable>
+                <MeasureTable>
+                    <MeasureTitle MeasureTitleID="2" OrdCode="1" Name="安全防护、文明施工措施项目费" Remark="">
+                        <MeasureTitle MeasureTitleID="3" OrdCode="1.1" Name="按系数计算的安全文明施工措施费" Remark="">
+                            <MeasureItem MeasureItemID="2" OrdCode="1.1.1" Name="安全文明施工费" Unit="项" Quantity="1" CostBase="FB[JZGC]" CostRate="0.0318" Rate="0" Total="0" Remark="">
+</MeasureItem>
+                            <MeasureItem MeasureItemID="3" OrdCode="1.1.2" Name="安全文明施工费" Unit="项" Quantity="1" CostBase="FB[DDZSGC]" CostRate="0.0252" Rate="0" Total="0" Remark="">
+</MeasureItem>
+                        </MeasureTitle>
+                        <MeasureTitle MeasureTitleID="4" OrdCode="1.2" Name="按子目计算的安全文明施工措施费" Remark="">
+                            <MeasureTitle MeasureTitleID="5" OrdCode="1.2.1" Name="综合脚手架（含安全网）" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="6" OrdCode="1.2.2" Name="内脚手架" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="7" OrdCode="1.2.3" Name="靠脚手架安全挡板和独立挡板" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="8" OrdCode="1.2.4" Name="围尼龙编织布" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="9" OrdCode="1.2.5" Name="模板的支撑" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="10" OrdCode="1.2.6" Name="现场围挡" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="11" OrdCode="1.2.7" Name="现场设置的卷扬机架" Remark="">
+</MeasureTitle>
+                        </MeasureTitle>
+                    </MeasureTitle>
+                    <MeasureTitle MeasureTitleID="12" OrdCode="2" Name="其他措施费" Remark="">
+                        <MeasureTitle MeasureTitleID="13" OrdCode="2.1" Name="按系数计算的其他措施项目费" Remark="">
+                            <MeasureItem MeasureItemID="4" OrdCode="2.1.1" Name="文明工地增加费" Unit="宗" Quantity="1" CostBase="FHJ" CostRate="0" Rate="0" Total="0" Remark="市级文明工地：0.4%；
+省级文明工地：0.7%。">
+</MeasureItem>
+                            <MeasureItem MeasureItemID="5" OrdCode="2.1.2" Name="夜间施工增加费" Unit="宗" Quantity="1" CostBase="FRGF+CS[AQFH2_RGF]+CS[QTCS2_RGF]" CostRate="0" Rate="0" Total="0" Remark="按其夜间施工项目人工费的20%计算；
+除赶工和合理的施工作业要求(如浇筑混凝土的连续作业)外。">
+</MeasureItem>
+                            <MeasureItem MeasureItemID="6" OrdCode="2.1.3" Name="赶工措施费" Unit="宗" Quantity="1" CostBase="FBF*0.1" CostRate="1" Rate="0" Total="0" Remark="(粤建造发[2011]007号)关于调整我省建设工程赶工措施费用的通知
+(1-δ)×分部分项工程费×0.1
+0.8≤δ＜1;
+δ=合同工期/定额工期">
+</MeasureItem>
+                            <MeasureItem MeasureItemID="7" OrdCode="2.1.4" Name="泥浆池(槽)砌筑及拆除" Unit="宗" Quantity="1" CostBase="" CostRate="0" Rate="0" Total="0" Remark="钻(冲)孔桩、旋挖成孔灌注桩、微型桩取：26.26元/m3；
+地下连续墙：42.11元/m3。">
+</MeasureItem>
+                        </MeasureTitle>
+                        <MeasureTitle MeasureTitleID="14" OrdCode="2.2" Name="按子目计算的其他措施项目费" Remark="">
+                            <MeasureTitle MeasureTitleID="15" OrdCode="2.2.1" Name="模板工程" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="16" OrdCode="2.2.2" Name="垂直运输工程" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="17" OrdCode="2.2.3" Name="材料二次运输" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="18" OrdCode="2.2.4" Name="成品保护工程" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="19" OrdCode="2.2.5" Name="混凝土泵送增加费" Remark="">
+</MeasureTitle>
+                            <MeasureTitle MeasureTitleID="20" OrdCode="2.2.6" Name="大型机械设备进出场及安拆" Remark="">
+</MeasureTitle>
+                        </MeasureTitle>
+                    </MeasureTitle>
+                </MeasureTable>
+                <OtherTable>
+                    <OtherItem OtherItemID="8" OrdCode="1" Name="暂列金额" Remark="" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false">
+</OtherItem>
+                    <OtherTitle OtherTitleID="22" OrdCode="2" Name="暂估价" Remark="">
+                        <OtherItem OtherItemID="9" OrdCode="2.1" Name="材料暂估价" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="">
+</OtherItem>
+                        <OtherItem OtherItemID="10" OrdCode="2.2" Name="专业工程暂估价" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="">
+</OtherItem>
+                    </OtherTitle>
+                    <OtherItem OtherItemID="11" OrdCode="3" Name="计日工" Remark="" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false">
+</OtherItem>
+                    <OtherItem OtherItemID="12" OrdCode="4" Name="总承包服务费" Remark="" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false">
+</OtherItem>
+                    <OtherTitle OtherTitleID="25" OrdCode="5" Name="材料保管费" Remark="">
+                        <OtherItem OtherItemID="13" OrdCode="5.1" Name="材料保管费" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="按照材料设备价格的1.50%收取保管费。单价5万元以上的材料设备保管费，按合同双方协商约定计算。">
+</OtherItem>
+                    </OtherTitle>
+                    <OtherTitle OtherTitleID="26" OrdCode="6" Name="预算包干费" Remark="">
+                        <OtherItem OtherItemID="14" OrdCode="6.1" Name="预算包干费" CostBase="FHJ" CostRate="0.02" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="按分部分项工程费的0～2%计算">
+</OtherItem>
+                    </OtherTitle>
+                    <OtherTitle OtherTitleID="27" OrdCode="7" Name="工程优质费" Remark="">
+                        <OtherItem OtherItemID="15" OrdCode="7.1" Name="工程优质费" CostBase="FHJ" CostRate="0" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="国家级质量奖：4%；省级质量奖：2.5%；市级质量奖：1.5%">
+</OtherItem>
+                    </OtherTitle>
+                    <OtherTitle OtherTitleID="28" OrdCode="8" Name="索赔费用" Remark="">
+                        <OtherItem OtherItemID="16" OrdCode="8.1" Name="索赔费用" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="索赔依据">
+</OtherItem>
+                    </OtherTitle>
+                    <OtherTitle OtherTitleID="29" OrdCode="9" Name="现场签证费用" Remark="">
+                        <OtherItem OtherItemID="17" OrdCode="9.1" Name="现场签证费用" CostBase="0" CostRate="1" Total="0" CostKind="0" NoncompetitiveCost="false" Remark="现场签证依据">
+</OtherItem>
+                    </OtherTitle>
+                </OtherTable>
+                <DayWorkTable>
+                    <DayWorkTitle DayWorkTitleID="30" OrdCode="1" Name="人工" Remark="">
+	</DayWorkTitle>
+                    <DayWorkTitle DayWorkTitleID="31" OrdCode="2" Name="材料" Remark="">
+	</DayWorkTitle>
+                    <DayWorkTitle DayWorkTitleID="32" OrdCode="3" Name="施工机械" Remark="">
+	</DayWorkTitle>
+                </DayWorkTable>
+                <EmployerExamMaterial>
+</EmployerExamMaterial>
+                <Resource>
+</Resource>
+                <TemporaryListCost>
+                    <TemporaryListCostItem TemporaryListCostItemID="631" OrdCode="1.1" Name="暂列金额" Unit="项" Remark="" Total="0">
+</TemporaryListCostItem>
+                </TemporaryListCost>
+                <ContractorServiceCost>
+                    <ContractorServiceCostItem ContractorServiceCostItemID="640" OrdCode="4.1" Name="发包人发包专业工程" ProjectValue="0" ServiceContent="" CostRate="1" Total="0">
+</ContractorServiceCostItem>
+                    <ContractorServiceCostItem ContractorServiceCostItemID="641" OrdCode="4.2" Name="发包人供应材料" ProjectValue="0" ServiceContent="" CostRate="1" Total="0">
+</ContractorServiceCostItem>
+                </ContractorServiceCost>
+                <SpecialityProjectRate>
+                    <SpecialityProjectRateItem SpecialityProjectRateItemID="636" OrdCode="2.2.1" Name="专业工程暂估价" ProjectContent="" Total="0" Remark="">
+</SpecialityProjectRateItem>
+                </SpecialityProjectRate>
+                <LawfeeAndTaxCost>
+                    <LawfeeAndTaxCostItem LawfeeAndTaxCostItemID="676" OrdCode="1" Name="规费" CostKind="5" CostCode="GF" CostBase="" CostRate="1" Total="0">
+                        <LawfeeAndTaxCostItem LawfeeAndTaxCostItemID="677" OrdCode="1.1" Name="工程排污费" CostKind="6" CostCode="GCPWF" CostBase="FHJ+CHJ+QTXM" CostRate="0.0033" Total="0">
+</LawfeeAndTaxCostItem>
+                        <LawfeeAndTaxCostItem LawfeeAndTaxCostItemID="678" OrdCode="1.2" Name="施工噪音排污费" CostKind="6" CostCode="SGZYPWF" CostBase="FHJ+CHJ+QTXM" CostRate="0" Total="0">
+</LawfeeAndTaxCostItem>
+                        <LawfeeAndTaxCostItem LawfeeAndTaxCostItemID="679" OrdCode="1.3" Name="防洪工程维护费" CostKind="6" CostCode="FHGCWHF" CostBase="FHJ+CHJ+QTXM" CostRate="0.0013" Total="0">
+</LawfeeAndTaxCostItem>
+                        <LawfeeAndTaxCostItem LawfeeAndTaxCostItemID="680" OrdCode="1.4" Name="危险作业意外伤害保险费" CostKind="6" CostCode="WXZYYWSHBXF" CostBase="FHJ+CHJ+QTXM" CostRate="0" Total="0">
+</LawfeeAndTaxCostItem>
+                    </LawfeeAndTaxCostItem>
+                    <LawfeeAndTaxCostItem LawfeeAndTaxCostItemID="681" OrdCode="2" Name="税金" CostKind="7" CostCode="SJ" CostBase="FHJ+CHJ+QTXM+GF" CostRate="0.0358" Total="0">
+</LawfeeAndTaxCostItem>
+                </LawfeeAndTaxCost>
+                <MaterialTemporaryRate>
+</MaterialTemporaryRate>
+            </ProjectList>
+        </ProjectList>
+    </ProjectList>
+</ConstructProject>
